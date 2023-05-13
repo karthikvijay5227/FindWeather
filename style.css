@@ -9,7 +9,6 @@ body {
     background-image: url(images/pexels-pixabay-209831.jpg);
     background-size: 100%;
     background-repeat:no-repeat;
-    background-position:center;
 }
 
 .weather{
@@ -32,6 +31,12 @@ body {
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+    .search button{
+        display:none;
+    }
 }
 
 .search input{
