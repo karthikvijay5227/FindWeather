@@ -11,6 +11,13 @@ body {
     background-repeat:no-repeat;
 }
 
+@media screen and (max-width: 1000px) {
+    body {
+        background-size: auto auto;
+        background-position: contain;
+    }
+}
+
 .weather{
     display:none;
 }
